@@ -1,13 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Layout from "@/components/Layout";
+import HeroSection from "@/components/HeroSection";
+import ServicesSection from "@/components/ServicesSection";
+import AboutSection from "@/components/AboutSection";
+import TeamPreviewSection from "@/components/TeamPreviewSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import CtaSection from "@/components/CtaSection";
+import { Helmet } from "react-helmet";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <Layout>
+      <Helmet>
+        <title>MindEase - Your Mental Health & Wellness Platform</title>
+        <meta name="description" content="MindEase offers professional mental health support through video consultations, AI chatbot assistance, and personalized wellness planning." />
+      </Helmet>
+      <HeroSection />
+      <ServicesSection />
+      <AboutSection />
+      <TeamPreviewSection />
+      <TestimonialsSection />
+      <CtaSection />
+    </Layout>
   );
 };
 
