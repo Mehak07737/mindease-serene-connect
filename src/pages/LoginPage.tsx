@@ -5,15 +5,22 @@ import { Input } from "@/components/ui/input";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useToast } from "@/components/ui/use-toast";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const { toast } = useToast();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Login attempt with:", { email });
     // Implement actual login logic when backend is connected
+    toast({
+      title: "Login Attempted",
+      description: `Login attempt with email: ${email}`,
+      duration: 3000,
+    });
   };
 
   return (

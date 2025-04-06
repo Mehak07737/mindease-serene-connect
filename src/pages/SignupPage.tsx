@@ -5,16 +5,23 @@ import { Input } from "@/components/ui/input";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useToast } from "@/components/ui/use-toast";
 
 const SignupPage = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const { toast } = useToast();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Signup attempt with:", { name, email });
     // Implement actual signup logic when backend is connected
+    toast({
+      title: "Signup Attempted",
+      description: `Signup attempt for ${name} with email: ${email}`,
+      duration: 3000,
+    });
   };
 
   return (

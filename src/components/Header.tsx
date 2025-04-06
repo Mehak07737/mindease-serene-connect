@@ -1,14 +1,20 @@
 
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleNavigate = (path: string) => {
+    console.log(`Navigating to: ${path}`);
+    navigate(path);
   };
 
   return (
@@ -32,16 +38,20 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-3">
-            <Link to="/login">
-              <Button variant="ghost" size="sm">
-                Login
-              </Button>
-            </Link>
-            <Link to="/signup">
-              <Button size="sm" className="bg-gradient-to-r from-mindease-lavender to-mindease-blue text-white hover:opacity-90 transition-opacity">
-                Sign Up
-              </Button>
-            </Link>
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              onClick={() => handleNavigate("/login")}
+            >
+              Login
+            </Button>
+            <Button 
+              size="sm" 
+              className="bg-gradient-to-r from-mindease-lavender to-mindease-blue text-white hover:opacity-90 transition-opacity"
+              onClick={() => handleNavigate("/signup")}
+            >
+              Sign Up
+            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -67,16 +77,20 @@ const Header = () => {
               <MobileNavLink to="/contact" onClick={toggleMenu}>Contact</MobileNavLink>
             </nav>
             <div className="mt-6 flex flex-col space-y-3">
-              <Link to="/login">
-                <Button variant="ghost" size="sm" className="w-full">
-                  Login
-                </Button>
-              </Link>
-              <Link to="/signup">
-                <Button className="w-full bg-gradient-to-r from-mindease-lavender to-mindease-blue text-white hover:opacity-90 transition-opacity">
-                  Sign Up
-                </Button>
-              </Link>
+              <Button 
+                variant="ghost" 
+                size="sm" 
+                className="w-full"
+                onClick={() => handleNavigate("/login")}
+              >
+                Login
+              </Button>
+              <Button 
+                className="w-full bg-gradient-to-r from-mindease-lavender to-mindease-blue text-white hover:opacity-90 transition-opacity"
+                onClick={() => handleNavigate("/signup")}
+              >
+                Sign Up
+              </Button>
             </div>
           </div>
         </div>
