@@ -47,25 +47,25 @@ const AboutSection = () => {
           <div className="lg:order-1 grid grid-cols-2 gap-4 animate-fade-in">
             <div className="space-y-4">
               <img 
-                src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
-                alt="Therapist in session" 
+                src="https://images.unsplash.com/photo-1579389083046-e3df9c2b3325?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                alt="Indian therapist in session" 
                 className="w-full h-auto rounded-2xl shadow-md"
               />
               <img 
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
-                alt="Mental wellness activity" 
+                src="https://images.unsplash.com/photo-1623594444359-d05c641eab5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                alt="Indian family discussing wellness" 
                 className="w-full h-auto rounded-2xl shadow-md"
               />
             </div>
             <div className="space-y-4 pt-8">
               <img 
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
-                alt="Meditation practice" 
+                src="https://images.unsplash.com/photo-1568306336662-98b30497e833?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                alt="Indian woman in meditation practice" 
                 className="w-full h-auto rounded-2xl shadow-md"
               />
               <img 
-                src="https://images.unsplash.com/photo-1609127102567-8a9a21dc27d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
-                alt="Supporting mental health" 
+                src="https://images.unsplash.com/photo-1532635241-17e820acc59f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                alt="Indian healthcare professionals discussing mental health" 
                 className="w-full h-auto rounded-2xl shadow-md"
               />
             </div>

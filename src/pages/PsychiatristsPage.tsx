@@ -12,43 +12,43 @@ import { Search } from "lucide-react";
 const psychiatristData: Psychiatrist[] = [
   {
     id: 1,
-    name: "Dr. Amanda Miller",
-    image: "https://randomuser.me/api/portraits/women/76.jpg",
+    name: "Dr. Priya Sharma",
+    image: "https://images.unsplash.com/photo-1573497019418-b400bb3ab074?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     specialties: ["Anxiety", "Depression", "PTSD"],
     experience: "12 Years"
   },
   {
     id: 2,
-    name: "Dr. Michael Chen",
-    image: "https://randomuser.me/api/portraits/men/52.jpg",
+    name: "Dr. Rajiv Mehta",
+    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     specialties: ["Bipolar Disorder", "OCD", "Stress Management"],
     experience: "9 Years"
   },
   {
     id: 3,
-    name: "Dr. Sarah Johnson",
-    image: "https://randomuser.me/api/portraits/women/33.jpg",
+    name: "Dr. Anjali Desai",
+    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     specialties: ["Family Therapy", "Adolescent Mental Health", "Trauma"],
     experience: "15 Years"
   },
   {
     id: 4,
-    name: "Dr. James Wilson",
-    image: "https://randomuser.me/api/portraits/men/34.jpg",
+    name: "Dr. Vikram Singh",
+    image: "https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     specialties: ["Addiction", "Depression", "Grief Counseling"],
     experience: "8 Years"
   },
   {
     id: 5,
-    name: "Dr. Priya Sharma",
-    image: "https://randomuser.me/api/portraits/women/68.jpg",
+    name: "Dr. Neha Gupta",
+    image: "https://images.unsplash.com/photo-1623605931891-d5b95ee98459?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     specialties: ["Anxiety Disorders", "Trauma", "LGBTQ+ Mental Health"],
     experience: "11 Years"
   },
   {
     id: 6,
-    name: "Dr. David Kim",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    name: "Dr. Amit Patel",
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     specialties: ["Relationship Counseling", "Depression", "Work-Life Balance"],
     experience: "14 Years"
   }

@@ -6,22 +6,22 @@ import PsychiatristCard, { Psychiatrist } from "./PsychiatristCard";
 const featuredPsychiatrists: Psychiatrist[] = [
   {
     id: 1,
-    name: "Dr. Amanda Miller",
-    image: "https://randomuser.me/api/portraits/women/76.jpg",
+    name: "Dr. Priya Sharma",
+    image: "https://images.unsplash.com/photo-1573497019418-b400bb3ab074?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     specialties: ["Anxiety", "Depression", "PTSD"],
     experience: "12 Years"
   },
   {
     id: 2,
-    name: "Dr. Michael Chen",
-    image: "https://randomuser.me/api/portraits/men/52.jpg",
+    name: "Dr. Rajiv Mehta",
+    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     specialties: ["Bipolar Disorder", "OCD", "Stress Management"],
     experience: "9 Years"
   },
   {
     id: 3,
-    name: "Dr. Sarah Johnson",
-    image: "https://randomuser.me/api/portraits/women/33.jpg",
+    name: "Dr. Anjali Desai",
+    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     specialties: ["Family Therapy", "Adolescent Mental Health", "Trauma"],
     experience: "15 Years"
   }

@@ -31,13 +31,13 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-heading font-semibold mb-6 text-gray-800">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                MindEase was founded in 2020 by Dr. Elena Rodriguez, a psychiatrist with over 15 years 
-                of experience, and tech entrepreneur Mark Chen. They shared a vision of combining professional 
+                MindEase was founded in 2020 by Dr. Aditya Sharma, a psychiatrist with over 15 years 
+                of experience, and tech entrepreneur Vikram Mehta. They shared a vision of combining professional 
                 mental healthcare with innovative technology to help more people access the support they need.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 What started as a small team of five psychiatrists offering remote consultations has grown 
-                into a comprehensive mental health platform serving thousands of clients worldwide. Our approach 
+                into a comprehensive mental health platform serving thousands of clients across India. Our approach 
                 integrates evidence-based psychological practices with cutting-edge technology to provide 
                 accessible, personalized mental health support.
               </p>
@@ -48,8 +48,8 @@ const AboutPage = () => {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-                alt="Team of mental health professionals" 
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                alt="Team of Indian mental health professionals" 
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -158,16 +158,16 @@ const AboutPage = () => {
             <div className="bg-mindease-gray/30 rounded-2xl overflow-hidden">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src="https://randomuser.me/api/portraits/women/45.jpg" 
-                  alt="Dr. Elena Rodriguez" 
+                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                  alt="Dr. Aditya Sharma" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-heading font-semibold mb-1 text-gray-800">Dr. Elena Rodriguez</h3>
+                <h3 className="text-xl font-heading font-semibold mb-1 text-gray-800">Dr. Aditya Sharma</h3>
                 <p className="text-primary mb-3">Co-Founder & Chief Medical Officer</p>
                 <p className="text-gray-600">
-                  With over 15 years as a practicing psychiatrist, Dr. Rodriguez leads our clinical team and ensures all services meet the highest medical standards.
+                  With over 15 years as a practicing psychiatrist, Dr. Sharma leads our clinical team and ensures all services meet the highest medical standards.
                 </p>
               </div>
             </div>
@@ -176,16 +176,16 @@ const AboutPage = () => {
             <div className="bg-mindease-gray/30 rounded-2xl overflow-hidden">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src="https://randomuser.me/api/portraits/men/38.jpg" 
-                  alt="Mark Chen" 
+                  src="https://images.unsplash.com/photo-1627640688713-c08850b457ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                  alt="Vikram Mehta" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-heading font-semibold mb-1 text-gray-800">Mark Chen</h3>
+                <h3 className="text-xl font-heading font-semibold mb-1 text-gray-800">Vikram Mehta</h3>
                 <p className="text-primary mb-3">Co-Founder & CEO</p>
                 <p className="text-gray-600">
-                  A tech entrepreneur with a passion for healthcare innovation, Mark drives MindEase's vision and strategic growth.
+                  A tech entrepreneur with a passion for healthcare innovation, Vikram drives MindEase's vision and strategic growth.
                 </p>
               </div>
             </div>
@@ -194,16 +194,16 @@ const AboutPage = () => {
             <div className="bg-mindease-gray/30 rounded-2xl overflow-hidden">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src="https://randomuser.me/api/portraits/women/17.jpg" 
-                  alt="Dr. Hannah Park" 
+                  src="https://images.unsplash.com/photo-1600275669439-14e40452d20b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                  alt="Dr. Meera Patel" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-heading font-semibold mb-1 text-gray-800">Dr. Hannah Park</h3>
+                <h3 className="text-xl font-heading font-semibold mb-1 text-gray-800">Dr. Meera Patel</h3>
                 <p className="text-primary mb-3">Head of Research & Development</p>
                 <p className="text-gray-600">
-                  Leading our R&D team, Dr. Park focuses on integrating the latest psychological research into our treatment approaches and technology.
+                  Leading our R&D team, Dr. Patel focuses on integrating the latest psychological research into our treatment approaches and technology.
                 </p>
               </div>
             </div>

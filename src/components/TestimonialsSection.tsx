@@ -3,21 +3,21 @@ import { Card } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Sushma Patel",
     role: "Anxiety Management",
-    image: "https://randomuser.me/api/portraits/women/32.jpg",
-    testimonial: "MindEase has been transformative for me. The video sessions with Dr. Patel helped me develop coping mechanisms for my anxiety that actually work in my daily life.",
+    image: "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    testimonial: "MindEase has been transformative for me. The video sessions with Dr. Mehta helped me develop coping mechanisms for my anxiety that actually work in my daily life.",
   },
   {
-    name: "Marcus Chen",
+    name: "Arjun Kapoor",
     role: "Depression Recovery",
-    image: "https://randomuser.me/api/portraits/men/42.jpg",
+    image: "https://images.unsplash.com/photo-1618375531912-867984bdfd87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     testimonial: "The AI chatbot was there for me at 2 AM when I was feeling my lowest. It guided me through a calming exercise and helped me make it through the night.",
   },
   {
-    name: "Priya Sharma",
+    name: "Neha Sharma",
     role: "Work-Life Balance",
-    image: "https://randomuser.me/api/portraits/women/53.jpg",
+    image: "https://images.unsplash.com/photo-1602442787305-decbd65be507?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     testimonial: "The wellness planner completely changed how I structure my days. I'm finally making time for self-care and seeing improvements in both my work and personal life.",
   },
 ];
