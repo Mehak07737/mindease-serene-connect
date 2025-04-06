@@ -32,12 +32,16 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-3">
-            <Button variant="ghost" size="sm">
-              Login
-            </Button>
-            <Button size="sm" className="bg-gradient-to-r from-mindease-lavender to-mindease-blue text-white hover:opacity-90 transition-opacity">
-              Sign Up
-            </Button>
+            <Link to="/login">
+              <Button variant="ghost" size="sm">
+                Login
+              </Button>
+            </Link>
+            <Link to="/signup">
+              <Button size="sm" className="bg-gradient-to-r from-mindease-lavender to-mindease-blue text-white hover:opacity-90 transition-opacity">
+                Sign Up
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -63,12 +67,16 @@ const Header = () => {
               <MobileNavLink to="/contact" onClick={toggleMenu}>Contact</MobileNavLink>
             </nav>
             <div className="mt-6 flex flex-col space-y-3">
-              <Button variant="ghost" size="sm">
-                Login
-              </Button>
-              <Button className="bg-gradient-to-r from-mindease-lavender to-mindease-blue text-white hover:opacity-90 transition-opacity">
-                Sign Up
-              </Button>
+              <Link to="/login">
+                <Button variant="ghost" size="sm" className="w-full">
+                  Login
+                </Button>
+              </Link>
+              <Link to="/signup">
+                <Button className="w-full bg-gradient-to-r from-mindease-lavender to-mindease-blue text-white hover:opacity-90 transition-opacity">
+                  Sign Up
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

@@ -36,8 +36,8 @@ const HeroSection = () => {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <img 
-              src="https://images.unsplash.com/photo-1603398737900-586651d31e60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-              alt="Indian woman meditating peacefully" 
+              src="https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+              alt="Woman meditating peacefully" 
               className="w-full h-auto object-cover"
             />
           </div>
