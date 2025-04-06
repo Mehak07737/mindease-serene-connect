@@ -39,12 +39,16 @@ const PsychiatristCard = ({ psychiatrist }: PsychiatristCardProps) => {
           ))}
         </div>
         <div className="flex space-x-2">
-          <Button variant="outline" size="sm" className="flex-1 text-gray-700 border-gray-300">
-            View Profile
-          </Button>
-          <Button size="sm" className="flex-1 bg-primary text-white hover:bg-primary/90">
-            Book Session
-          </Button>
+          <Link to={`/psychiatrists/${psychiatrist.id}`} className="flex-1">
+            <Button variant="outline" size="sm" className="w-full text-gray-700 border-gray-300">
+              View Profile
+            </Button>
+          </Link>
+          <Link to="/booking" className="flex-1">
+            <Button size="sm" className="w-full bg-primary text-white hover:bg-primary/90">
+              Book Session
+            </Button>
+          </Link>
         </div>
       </CardContent>
     </Card>

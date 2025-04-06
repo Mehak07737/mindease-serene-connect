@@ -29,7 +29,7 @@ const featuredPsychiatrists: Psychiatrist[] = [
 
 const TeamPreviewSection = () => {
   return (
-    <section className="py-20 bg-mindease-gray/30">
+    <section className="py-20 bg-mindease-gray/30" id="team-preview">
       <div className="mindease-container">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="section-title">Meet Our Psychiatrists</h2>
@@ -40,7 +40,10 @@ const TeamPreviewSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {featuredPsychiatrists.map((psychiatrist) => (
-            <PsychiatristCard key={psychiatrist.id} psychiatrist={psychiatrist} />
+            <PsychiatristCard 
+              key={psychiatrist.id} 
+              psychiatrist={psychiatrist} 
+            />
           ))}
         </div>
 
