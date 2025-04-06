@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -15,13 +16,22 @@ const HeroSection = () => {
               Professional support, AI-powered guidance, and personalized resources to help you navigate life's challenges with confidence.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-gradient-to-r from-mindease-lavender to-mindease-blue text-white hover:opacity-90 transition-opacity text-lg px-6 py-6 h-auto">
-                Book a Session
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button variant="outline" className="text-gray-700 border-gray-300 hover:bg-mindease-gray/50 transition-colors text-lg px-6 py-6 h-auto">
-                Take a Mental Health Quiz
-              </Button>
+              <Link to="/booking">
+                <Button className="bg-gradient-to-r from-mindease-lavender to-mindease-blue text-white hover:opacity-90 transition-opacity text-lg px-6 py-6 h-auto">
+                  Book a Session
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+              <Link to="/chat">
+                <Button variant="outline" className="text-gray-700 border-gray-300 hover:bg-mindease-gray/50 transition-colors text-lg px-6 py-6 h-auto">
+                  Try AI Chat Support
+                </Button>
+              </Link>
+              <Link to="/wellness">
+                <Button variant="outline" className="text-gray-700 border-gray-300 hover:bg-mindease-gray/50 transition-colors text-lg px-6 py-6 h-auto">
+                  Start My Wellness Plan
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl animate-fade-in" style={{ animationDelay: '0.3s' }}>

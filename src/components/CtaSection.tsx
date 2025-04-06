@@ -23,6 +23,11 @@ const CtaSection = () => {
               Try AI Chat Support
             </Button>
           </Link>
+          <Link to="/wellness">
+            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10 text-lg px-8">
+              Create Wellness Plan
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
